@@ -1,0 +1,240 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-size:65px;
+    font-style: normal;
+    height: auto;
+    color: #252432;
+    text-align: center ;
+    background-color:#f6f8ff;
+    
+}
+nav{
+    display: flex;
+    
+    justify-content:space-between;
+    align-items: center;
+    margin:0 150px ;
+    
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin: 36px 0 ;
+    
+} 
+.logo{
+    color: #4E47FF;
+    font-size: 34px;
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+
+    
+
+.text{
+    text-decoration: none;
+        color: #FFFFFF;
+       
+       
+}
+.btn:hover{
+    background-color: yellow;
+    color: #000000;
+}
+.btn{
+    
+    background-color: #4E47FF;
+    border-radius: 10px;
+    cursor:pointer ;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    padding:12px 36px;
+}
+.bg{
+    background-image: url(Assets/Hero-bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 200px;
+    text-align: center;
+    gap: 37px;
+}
+.banner-text{
+    font-size: 65px;
+
+}
+/* action section */
+.action{
+    display: flex;
+    gap: 220px;
+    align-items: center;
+    margin: 90px 159px 116px 141px;
+}
+.act-head{
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+    
+    
+}
+.act-para{
+
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 24px;
+    font-weight:lighter;
+    font-family: 'Alegreya', serif;
+}
+/* image radius */
+.radi{
+    border-radius: 48px;
+}
+/* productive user session */
+ .user-body {
+     background-color: rgba(78, 71, 255, 0.1);
+     margin: 100px auto;
+     padding: 60px 40px;
+     border-radius: 24px;
+     max-width: 1100px;
+     text-align: center;
+ }
+
+ .user-heading {
+     font-weight: bold;
+     font-size: 38px;
+     font-family: "Raleway", sans-serif;
+     margin-bottom: 40px;
+ }
+
+ .user {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 40px;
+ }
+
+ .value {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     flex: 1;
+     min-width: 200px;
+ }
+
+ .fifty {
+     font-size: 65px;
+     font-weight: bold;
+     font-family: "Inter", sans-serif;
+     color: #4E47FF;
+     margin: 0;
+ }
+
+ .details {
+     font-size: 20px;
+     color: rgba(0, 0, 0, 0.5);
+     margin-top: 10px;
+ }
+/* contact */
+.gulbahar{
+    flex:1;
+    text-align: justify;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+    
+
+}
+.contact{
+    display: flex;
+    margin: 92.23px 150px 14px 150px;
+    padding: 0 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    
+}
+.info{
+    flex: 1;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    max-width: 400px;
+
+}
+input,textarea{
+    border-radius: 10px;
+        padding: 20px 32px;
+        width: 100%;
+        margin-bottom: 15px;
+            border: 1.5px solid #000;
+            font-size: 16px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+label{
+    margin-bottom: 19px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+/* footer */
+.foot{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 40px 0;
+}
+.folo{
+     
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+                color: #4E47FF;
+                font-weight: bolder;
+                font-size: 48px;
+                margin: 16px;
+            
+           
+           
+}
+.foot-nav{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: #8987A1;
+        font-size: 18px;
+        gap: 48px;
+        width: 100%;
+        font-weight: lighter;
+        font-family: 'Alegreya', serif;
+                
+              
+        
+       
+}
+.foot-nav li{
+    cursor: pointer;
+}
