@@ -237,6 +237,7 @@ label{
 }
 .foot-nav li{
     cursor: pointer;
+<<<<<<< HEAD
 }
 /* focus */
 .focus{
@@ -264,3 +265,6 @@ label{
     margin-bottom: 20px;
     
 }
+=======
+}
+>>>>>>> 0c93d2261c96458e02aa419d62a887ba2743ae58
