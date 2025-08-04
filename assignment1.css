@@ -238,6 +238,7 @@ label{
 .foot-nav li{
     cursor: pointer;
 
+
 }
 /* review */
 .no-name {
@@ -305,6 +306,7 @@ label{
     color: rgba(179, 179, 179, 1);
     font-size: 14px;
         line-height: 1.4;
+
 }
 /* focus */
 .focus{
