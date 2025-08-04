@@ -29,6 +29,7 @@ nav{
 .logo{
     color: #4E47FF;
     font-size: 34px;
+    font-family: "Inter", sans-serif;
 }
 
 nav ul li{
@@ -98,6 +99,7 @@ nav ul li{
     margin: 0 auto 24px;
     font-weight:lighter;
     font-family: 'Alegreya', serif;
+    text-align: justify;
 }
 /* image radius */
 .radi{
